@@ -1,0 +1,70 @@
+/* Mis Estilos */
+
+.inbox{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.conversation{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: rgb(77, 226, 47);
+}
+
+.conversation:hover{
+  cursor: pointer;
+  background-color: rgb(50, 233, 14);
+  margin: 9px;
+}
+
+.timeConversation{
+width: 100%;
+text-align: right;
+}
+
+/* mensajes */
+
+.messageContainer{
+  height: 100%;
+}
+
+.cabeceraMsj{
+  display: inline-flex;
+  width: 100%;
+}
+
+.messageContainer .contact{
+  width: fit-content;
+  max-width: 70%;
+  margin: 18px 10px;
+  background-color: rgb(20, 255, 106);
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.messageContainer .user{
+  width: fit-content;
+  max-width: 70%;
+  text-align: right;
+  margin-left: auto;
+  background-color: rgb(51, 255, 126);
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px;}
+
+.messageContainer .user p{
+  margin-left: auto;
+}
+
+
+.timeMessage{
+  width: auto;
+  text-align: right;
+}
+
+.btn-volver{
+  cursor: pointer;
+}
+
